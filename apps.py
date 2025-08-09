@@ -4,7 +4,7 @@ import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load model dan vectorizer
-with open("models/LR_model.pkl", "rb") as f:
+with open("Logistic_Regression_FinalProject.pkl", "rb") as f:
     model = pickle.load(f)
 with open("file_vectorizer.pkl", "rb") as f:
     tfidf = pickle.load(f)
